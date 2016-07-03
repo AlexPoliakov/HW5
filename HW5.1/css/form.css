@@ -1,0 +1,197 @@
+.box {
+    position: relative;
+    width: 1215px;
+    height: 1064px;
+    margin: 0 auto;
+
+}
+
+.form {
+    position: absolute;
+    background: rgba(21, 21, 17, 0.631);
+    width: 560px;
+    height: 612px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.cadastr {
+    width: 100%;
+    height: 62px;
+    margin: 0 auto;
+    z-index: 120;
+    border-bottom: 3px solid #c4c9c5;
+}
+
+.cad {
+    padding-top: 23px;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    line-height: 0.667;
+    text-align: center;
+    font-family: 'helvetica_neueregular', sans-serif;
+    font-weight: bold;
+}
+
+.face {
+    position: absolute;
+    width: 276px;
+    height: 35px;
+    top: 100px;
+    left: 142px;
+}
+
+h3 {
+    position: relative;
+    overflow: hidden;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+    width: 275px;
+    margin: 0 auto;
+    font-family: 'helvetica_neueregular', sans-serif;
+    color: rgb(153, 153, 153);
+    line-height: 1.143;
+}
+
+h3 > span {
+    display: inline-block;
+    margin: 0 4em;
+    margin-top: 98px;
+}
+
+h3 > span:before,
+h3 > span:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    margin-top: .5em;
+    background: url(../img/sloyline.png) repeat;
+    height: 2px;
+
+}
+
+h3 > span:before {
+    margin-left: -102%;
+}
+
+h3 > span:after {
+    margin-left: 2%;
+}
+
+.ident {
+    position: relative;
+    top: 34px;
+    left: 145px;
+    width: 276px;
+}
+
+.first {
+    background: -webkit-linear-gradient(top, rgba(16,14,14,0.9) 0%,rgba(17,16,15,1) 3%,
+    rgba(17,17,16,1) 6%,rgba(19,19,18,1) 94%,rgba(22,22,22,1) 100%);
+    width: 257px;
+    height: 35px;
+    font-size: 14px;
+    color: rgb(204, 204, 204);
+    font-family: 'helvetica_neueregular', sans-serif;
+    line-height: 1.143;
+    padding-left: 19px;
+    border: none;
+    border-bottom: 1px solid #484847;
+}
+
+.first:hover{
+    background: -webkit-linear-gradient(top, rgba(26,69,111,0.94) 0%,rgba(29,72,115,1) 3%,rgba(29,76,124,1) 15%,
+    rgba(29,76,124,1) 85%,rgba(29,75,122,1) 97%,rgba(31,75,118,1) 100%);
+    box-shadow:
+            0 0 20px rgba(255,255,255,.6),
+            inset 0 0 4px rgba(255,255,255,1),
+            inset 0 0 5px rgba(19,19,18,1);
+}
+
+.first:focus {
+    background: -webkit-linear-gradient(top, rgba(26,69,111,0.94) 0%,rgba(29,72,115,1) 3%,rgba(29,76,124,1) 15%,
+    rgba(29,76,124,1) 85%,rgba(29,75,122,1) 97%,rgba(31,75,118,1) 100%);
+    box-shadow:
+            0 0 20px rgba(255,255,255,.6),
+            inset 0 0 4px rgba(255,255,255,1),
+            inset 0 0 5px rgba(19,19,18,1);
+}
+
+.second, .three, .four, .five {
+    padding-left: 19px;
+    margin-top: 16px;
+    width: 257px;
+    height: 35px;
+    top: 150px;
+    background: -webkit-linear-gradient(top, rgba(16,14,14,0.9) 0%,rgba(17,16,15,1) 3%,
+    rgba(17,17,16,1) 6%,rgba(19,19,18,1) 94%,rgba(22,22,22,1) 100%);
+    font-size: 14px;
+    color: rgb(204, 204, 204);
+    font-family: 'helvetica_neueregular', sans-serif;
+    line-height: 1.143;
+    border: none;
+    border-bottom: 1px solid #484847;
+}
+
+.post:hover {
+    background: -webkit-linear-gradient(top, rgba(26,69,111,0.94) 0%,rgba(29,72,115,1) 3%,rgba(29,76,124,1) 15%,
+    rgba(29,76,124,1) 85%,rgba(29,75,122,1) 97%,rgba(31,75,118,1) 100%);
+    box-shadow:
+            0 0 20px rgba(255,255,255,.6),
+            inset 0 0 4px rgba(255,255,255,1),
+            inset 0 0 5px rgba(19,19,18,1);
+}
+
+.post:focus {
+    box-shadow:
+            0 0 20px rgba(255,255,255,.6),
+            inset 0 0 4px rgba(255,255,255,1),
+            inset 0 0 5px rgba(19,19,18,1);
+    background: -webkit-linear-gradient(top, rgba(26,69,111,0.94) 0%,rgba(29,72,115,1) 3%,rgba(29,76,124,1) 15%,
+    rgba(29,76,124,1) 85%,rgba(29,75,122,1) 97%,rgba(31,75,118,1) 100%);
+}
+
+.chbox {
+    margin-top: 24px;
+}
+
+.chb {
+    color: rgb(204, 204, 204);
+    line-height: 1.143;
+    font-size: 14px;
+    background: url(../img/send.png) no-repeat;
+    font-family: 'helvetica_neueregular', sans-serif;
+}
+
+.bottom {
+    top: 300px;
+    position: absolute;
+    left: 55px;
+}
+
+.push {
+    background: url(../img/Button.png) center;
+    width: 149px;
+    height: 35px;
+    font-family: 'helvetica_neueregular', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    line-height: 1.143;
+    border: none;
+    border-radius: 3px;
+}
+
+.help {
+    font-size: 11px;
+    color: rgb(204, 204, 204);
+    line-height: 1.455;
+    text-align: center;
+    margin-top: 103px;
+}
+
+

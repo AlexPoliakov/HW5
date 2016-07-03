@@ -1,0 +1,29 @@
+@import "reset.css";
+@import "header.css";
+@import "form.css";
+
+body {
+    font: 14px 'helvetica_neueregular', Arial;
+}
+
+@font-face {
+    font-family: 'helvetica_neueregular';
+    src: url('../fonts/helveticaneue-thin-webfont.eot');
+    src: url('../fonts/helveticaneue-thin-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/helveticaneue-thin-webfont.woff2') format('woff2'),
+    url('../fonts/helveticaneue-thin-webfont.woff') format('woff'),
+    url('../fonts/helveticaneue-thin-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'helveticaneuecyrbold';
+    src: url('../fonts/helveticaneuecyr-bold-webfont.eot');
+    src: url('../fonts/helveticaneuecyr-bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/helveticaneuecyr-bold-webfont.woff2') format('woff2'),
+    url('../fonts/helveticaneuecyr-bold-webfont.woff') format('woff'),
+    url('../fonts/helveticaneuecyr-bold-webfont.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}

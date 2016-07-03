@@ -1,0 +1,141 @@
+.conteiner {
+    min-width: 100%;
+    background: url(../img/travel.png) no-repeat;
+    z-index: 8;
+    height: 100%;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+
+.header {
+    min-width: 100%;
+    height: 43px;
+    background: url(../img/slh.png);
+    position: relative;
+    padding: 0 100%;
+    margin: 0 -100%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    content: "";
+    clear: both;
+    height: 0;
+}
+
+.menu {
+    width: 390px;
+    margin-left: 600px;
+    padding: 12px;
+}
+
+li a{
+    padding: 14px 4px;
+}
+
+.prob {
+    padding-left: 5px;
+}
+
+.menu li {
+    display: inline-block;
+    padding-left: 15px;
+}
+
+.menu, li a {
+    color: rgb(96, 181, 237);
+}
+
+.menu li a:hover {
+    background: #388acb;
+    color: rgb(255, 255, 255);
+    line-height: 1;
+    transition: 0.5s;
+}
+
+.menu li a:focus {
+    background: #388acb;
+    color: rgb(255, 255, 255);
+    line-height: 1;
+}
+
+.menu::after {
+    content: "";
+    display: inline-block;
+    float: right;
+    border-right: 1px solid deepskyblue;
+    width: 3px;
+    height: 30px;
+    margin-top: -5px;
+}
+
+.line {
+    text-decoration: underline;
+}
+
+.menu1 {
+    float: right;
+    margin-top: -28px;
+    margin-right: 220px;
+}
+
+.put, .ola, .mn, .line {
+    line-height: 1;
+    color: rgb(255, 255, 255);
+}
+
+.put {
+    padding: 15px;
+}
+
+.put::before {
+    content: "";
+    display:block;
+    float: left;
+    margin-right: 10px;
+    width: 24px;
+    height: 24px;
+    background: url("../img/flag.png") no-repeat;
+    padding-top: 15px;
+}
+
+.mn  {
+    margin-left: 4px;
+}
+
+.put:hover{
+    background: -webkit-linear-gradient(top, #68c6e6 0%,#52b1dd 3%,#3281c7 74%,#2e7ac4 91%,#2e7ac4 100%);
+    transition: 0.2s;
+    height: 30px;
+    z-index: 300;
+    box-shadow:
+            0 0 2px rgba(255,255,255,.6),
+            inset 0 0 2px rgba(255,255,255,1);
+}
+
+.put:focus{
+    background: -webkit-linear-gradient(top, #68c6e6 0%,#52b1dd 3%,#3281c7 74%,#2e7ac4 91%,#2e7ac4 100%);
+    transition: 0.2s;
+    height: 30px;
+    z-index: 300;
+    box-shadow:
+            0 0 2px rgba(255,255,255,.6),
+            inset 0 0 2px rgba(255,255,255,1);
+}
+
+
+.end {
+    padding: 15px;
+}
+
+.end:hover {
+    background: -webkit-linear-gradient(top, #68c6e6 0%,#52b1dd 3%,#3281c7 74%,#2e7ac4 91%,#2e7ac4 100%);
+    transition: 0.2s;
+    height: 30px;
+    z-index: 300;
+    box-shadow:
+            0 0 2px rgba(255,255,255,.6),
+            inset 0 0 2px rgba(255,255,255,1);
+}

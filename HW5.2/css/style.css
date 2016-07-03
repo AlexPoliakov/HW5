@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    background: #ffffff;
+}
+
+.holst {
+    margin: 100px auto;
+    width: 501px;
+    height: 541px;
+    border: 1px solid gray;
+}
+
+.pg {
+    border: 9px solid #ffffff;
+    margin: 0 auto;
+    width: 500px;
+    height: 540px;
+    padding: 0;
+    color: #ffffff;
+    border-collapse: collapse;
+}
+
+td  {
+    border: 8px solid #271e0b;
+}
+
+.head {
+    height: 47px;
+}
+
+.head, .left, .long, .w, .w1 {
+    background-color: #ffffff;
+}
+
+.w1 {
+    width: 35px;
+}
+
+.red {
+    background: url(../img/red.png);
+}
+
+.yel {
+    background: url(../img/yell.png);
+}
+
+.blue {
+    background: url(../img/blue.png);
+}
+
+.black, .black1 {
+    background: url(../img/black.png);
+    color: #0d0d0e;
+}
+
+.black1 {
+    height: 34px;
+}
+
+.left {
+    width: 50px;
+}
+
+.long {
+    height: 32px;
+    width: 50px;
+}
+
